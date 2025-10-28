@@ -1,5 +1,4 @@
 name: Update Blog Posts
-  
 
 on:
   push:
@@ -7,7 +6,9 @@ on:
         - main
   schedule:
     - cron: '0 0 * * *'  # 매일 자정에 실행
-
+    
+permissions:
+  contents: write
 jobs:
   update_blog:
     runs-on: ubuntu-latest
