@@ -33,5 +33,4 @@ jobs:
         pip install feedparser gitpython
 
     - name: Run script
-      run: python update_blog.py
-      working-directory: scripts
+      run: python ./scripts/update_blog.py
