@@ -4,7 +4,7 @@ import os
 
 # 벨로그 RSS 피드 URL
 # 굳이 secret 안 써도 될 것으로 판단
-rss_url = 'https://api.velog.io/rss/@YangJJune'
+rss_url = 'https://api.velog.io/rss/@ysj7191'
 
 # 깃허브 레포지토리 경로
 repo_path = '.'
