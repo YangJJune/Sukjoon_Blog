@@ -19,6 +19,8 @@ jobs:
 
     - name: Push changes
       run: |
+        git config --global user.email "ysj7191@naver.com"
+        git config --global user.name "YangJJune"
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
     - name: Set up Python
